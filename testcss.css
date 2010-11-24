@@ -1,0 +1,10 @@
+@CHARSET "ISO-8859-1";
+
+/* pushes the page to the full capacity of the viewing area */
+html {height:100%;}
+body {height:100%; margin:0; padding:0;}
+/* prepares the background image to full capacity of the viewing area */
+#bg {position:fixed; top:0; left:0; width:100%; height:100%;}
+/* places the content ontop of the background image */
+#content {position:relative; z-index:1;}
+
