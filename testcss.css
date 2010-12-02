@@ -1,10 +1,26 @@
 @CHARSET "ISO-8859-1";
 
-/* pushes the page to the full capacity of the viewing area */
-html {height:100%;}
-body {height:100%; margin:0; padding:0;}
-/* prepares the background image to full capacity of the viewing area */
-#bg {position:fixed; top:0; left:0; width:100%; height:100%;}
-/* places the content ontop of the background image */
-#content {position:relative; z-index:1;}
+    html{
+		position: fixed;
+		background: url("Assets/background2.png") left 0 no-repeat; 
+		background-color: #37489e
+		}
+		
+	body{
+		width: 50%;
+		margin:auto;
+		padding-top: 100px;
+		}
+
+	#hoverbutton a {
+		display:block;
+		background-image: url("Assets/hoverButton.png");
+		background-position: right 0;
+		width:80px;
+		height:80px;
+		}
+		
+	#hoverbutton a:hover {	
+		background-position: 0 0;
+		}
 
