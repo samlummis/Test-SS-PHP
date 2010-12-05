@@ -25,5 +25,10 @@
 		<div id="hoverbutton">
 			<a href=""></a>
 		</div>
+		<div class='jslink'>
+		<a href="javascript:addPopUpLink()">A link to a pop up</a>
+	   <br />
+	   <a href="http://www.edge-online.com" class="smallpopup"></a>
+		</div>
 	</body>
 </html>

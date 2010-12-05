@@ -2,7 +2,7 @@
 
     html{
 		position: fixed;
-		background: url("Assets/background2.png") left 0 no-repeat; 
+		background: url("Assets/background2.png") left top no-repeat; 
 		background-color: #37489e
 		}
 		
